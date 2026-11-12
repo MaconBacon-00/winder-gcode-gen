@@ -1,0 +1,20 @@
+{
+  "name": "HELIX45",
+  "mandrel_diameter": 101.6,
+  "band_width": 6.0,
+  "x_start": 100.0,
+  "x_end": 1150.0,
+  "layer_thickness": 0.25,
+  "carriage_speed": 40.0,
+  "mandrel_speed": 360.0,
+  "accel": 1000,
+  "min_dwell": 180.0,
+  "lead_in_mm": 30.0,
+  "lead_out_deg": 90.0,
+  "layers": [
+    {"type": "hoop", "passes": 2},
+    {"type": "helical", "angle": 45},
+    {"type": "helical", "angle": 45},
+    {"type": "hoop", "passes": 2}
+  ]
+}
